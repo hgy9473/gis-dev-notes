@@ -54,6 +54,8 @@ https(http)://{域名（IP）}:{端口}/arcgis/rest/services/{文件夹名}/{服
 
 2. 服务地址后面加 `/图层ID/query?f=json&where=1=1&outFileds=*&returnGeometry=true` 即可查询服务中的所有数据。（如果服务限制了一次查询只能返回的数据条数(默认是1000)的话，可能查不出所有数据）
 
+![查询图层数据](../assets/images/mapserver-query-layer-data.jpg)
+
 参数解释：
 
 | 参数名             | 含义       | 取值范围                  |
