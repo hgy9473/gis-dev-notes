@@ -1,8 +1,8 @@
-# GIS-Notes
+# GIS-Dev-Notes
 
-GIS 学习笔记
+GIS 开发笔记
 
-## 数据相关
+## 文章列表
 
 1. [切片文件结构解析](./data/tile-file-structure.md)
 2. [地图服务地址使用技巧](./data/mapserver-url-skill.md)
