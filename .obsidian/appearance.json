@@ -1,0 +1,11 @@
+{
+  "accentColor": "",
+  "theme": "moonstone",
+  "interfaceFontFamily": "Cascadia Code",
+  "textFontFamily": "Cascadia Mono",
+  "monospaceFontFamily": "Cascadia Code",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "code-line"
+  ]
+}

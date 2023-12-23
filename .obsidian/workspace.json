@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "d4a9c1a829a4291e",
+    "type": "split",
+    "children": [
+      {
+        "id": "54a1b7e858671784",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d2f0279867cea35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "map/cesium-primitive-dynamic-line.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2e0108925da1190c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed6af2eff136bc59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88c534c5bbb0e237",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3431100e51420cd6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f4232d455a2569c3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "5415e5af3f5b7d6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c9591acd195ed4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f316edc992d895f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "map/cesium-primitive-dynamic-line.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b3bfbe9fb41a7696",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "map/cesium-primitive-dynamic-line.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "495ecfd42653b10c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "18834b6c2622ed7b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "map/cesium-primitive-dynamic-line.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "pkmer:Open Pkmer Market": false
+    }
+  },
+  "active": "4d2f0279867cea35",
+  "lastOpenFiles": [
+    "map/cesium-primitive-dynamic-line.md",
+    "services/common-gis-services-type.md"
+  ]
+}
