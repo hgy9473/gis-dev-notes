@@ -151,7 +151,7 @@ czm_material czm_getMaterial(czm_materialInput materialInput) {
 
 动态纹理的的难点就在这一段代码。难在哪里呢？
 
-（1）这段代码使用了一种一般开发人员不熟悉的语言（GLSL, 全称 OpenGL Shading Language，是一种 C 风格的着色器语言）<sup>[4]</sup>;
+（1）这段代码使用了一种一般开发人员不熟悉的语言 GLSL（全称 OpenGL Shading Language，是一种 C 风格的着色器语言）<sup>[4]</sup>;
 
 （2）Cesium 官方对于这一块代码涉及的内容没有提供足够的参考资料。
 
@@ -344,21 +344,62 @@ float st_map_s = fract(st.s - speed * czm_frameNumber * 0.001);
 
 代码中有三个变量 `st_map_s`、`st.s`、`czm_frameNumber` 。(注意 speed 一般是固定的值，在本文示例中 speed 为 20)。
 
+```c
+st_map_s = mod(st.s - 0.02 * czm_frameNumber, 1)
+// mod 为求余函数，对1求余相当于提取小数部分
+```
+
 要把代码转为公式，还需要说明一个问题。
 
 一个动画中最重要的变量是时间，所以 `czm_frameNumber` 是关键的变量。`st.s` 可以暂时先定为一个常量。
 
-于是公式可以写为：
+于是公式可以写为一个函数：
 
 ```c
 y = mod(0.5 - 0.02x, 1)
 ```
+由公式绘制回来的图为
+![函数图片](../assets/images/animation-f.jpg)
+原来这个函数是一个周期函数。以上从图片可以看出，随着 `czm_frameNumber` 的变化，图形上 `st.s` 等于 0.5 位置经过公式计算出的值在 0-1 之间周期性循环变化的，于是此处颜色值也会周期性循环变化，动画就产生了。
 
+调整 `st.s` 的值，函数图像会平移。于是纹理采样器会平移取色给图形着色。
+![st.s变化](../assets/images/animation-f1.jpg)
+调整 `speed` 的值，图像周期会变化。于是对应的动画速度会发生变化。
+![调整speed](../assets/images/animation-f2.jpg)
 
+## 五、重新再来看代码
 
+这次再看应该没什么困惑了。
+
+```c
+```c
+czm_material czm_getMaterial(czm_materialInput materialInput) {
+  // 获取系统默认的材质
+  czm_material material = czm_getDefaultMaterial(materialInput);
+  // 获取默认材质的纹理坐标
+  vec2 st = materialInput.st;
+  // 转换纹理坐标分量 st.s
+  // 以下经过换算的 st_map_s 会周期性变化
+  // speed 来源于 fabric.uniforms.speed
+  // 当 speed 等于 20 时，周期为 50 帧
+  // czm_frameNumber 是一无限递增的正整数
+  float st_map_s = fract(st.s - speed * czm_frameNumber * 0.001);
+  // 从图片上取色
+  vec4 colorImage = texture2D(image, vec2(st_map_s, st.t));
+  vec4 fragColor;
+  // 除 1.0 转为浮点数
+  fragColor.rgb = color.rgb / 1.0;
+  // 更新材质
+  // 设置透明度
+  // 此处透明度由图片颜色的透明度和外部变量color中的颜色透明度共同决定。
+  material.alpha = colorImage.a * color.a;
+  material.diffuse = fragColor.rgb; // 设置漫反射颜色，取自外部变量color
+  material.emission = fragColor.rgb; // 设置自发光颜色，取自外部变量color
+  return material;
+}
+```
 
 补充说明：
-
 Cesium 自从 1.102 版本开始默认使用 WebGL2 作为渲染环境的上下文，此前的版本默认以 WebGL1 作为渲染环境的上下文。<sup>[7]</sup> WebGL2 中着色器代码语法标准为 GLSL ES 300, 而 WebGL1 中的着色器代码语法标准为 GLSL ES 100。<sup>[8]</sup>所以，如果 Cesium 版本不同，可能会导致从别处拷来的着色代码运行报错。
 
 ## 参考资料

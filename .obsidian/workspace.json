@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "54a1b7e858671784",
+        "id": "1f8a4d8ca9c7bf79",
         "type": "tabs",
         "children": [
           {
-            "id": "4d2f0279867cea35",
+            "id": "6e7290ea1fc77a02",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5415e5af3f5b7d6a",
@@ -148,9 +147,16 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "4d2f0279867cea35",
+  "active": "6e7290ea1fc77a02",
   "lastOpenFiles": [
+    "assets/images/animation-f2.jpg",
+    "assets/images/animation-f1.jpg",
+    "data/mapserver-url-skill.md",
     "map/cesium-primitive-dynamic-line.md",
+    "assets/images/animation-f.jpg",
+    "assets/images/animation-f.png",
+    "assets/images/Pasted image 20231226072156.png",
+    "Pasted image 20231226072156.png",
     "services/common-gis-services-type.md"
   ]
 }
