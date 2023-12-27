@@ -336,7 +336,7 @@ float st_map_s = fract(st.s - speed * czm_frameNumber * 0.001);
 
 (2). `st_map_s` 的取值范围是多少？这个倒是不难想通，既然 fract 的功能是取小数部分，那么 `st_map_s` 的取值范围肯定是 0 ~ 1。
 
-(3) 为什么改编 speed 的值就可以调整动画速度？
+(3) 为什么改变 speed 的值就可以调整动画速度？
 
 后来我想到了用数学工具把这句代码对应的数学公式画出来，看看随着 `czm_frameNumber` 的变化，`st_map_s` 怎么变化。
 
@@ -358,11 +358,11 @@ st_map_s = mod(st.s - 0.02 * czm_frameNumber, 1)
 ```c
 y = mod(0.5 - 0.02x, 1)
 ```
-由公式绘制回来的图为
+由公式绘制出来的图为
 ![函数图片](../assets/images/animation-f.jpg)
 原来这个函数是一个周期函数。以上从图片可以看出，随着 `czm_frameNumber` 的变化，图形上 `st.s` 等于 0.5 位置经过公式计算出的值在 0-1 之间周期性循环变化的，于是此处颜色值也会周期性循环变化，动画就产生了。
 
-调整 `st.s` 的值，函数图像会平移。于是纹理采样器会平移取色给图形着色。
+调整 `st.s` 的值，函数图像会平移。于是代码会在图片上平移取色给图形着色。
 ![st.s变化](../assets/images/animation-f1.jpg)
 调整 `speed` 的值，图像周期会变化。于是对应的动画速度会发生变化。
 ![调整speed](../assets/images/animation-f2.jpg)
