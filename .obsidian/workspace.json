@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "138ffaec1faa7061",
+        "id": "d79f2355e277ab70",
         "type": "tabs",
         "children": [
           {
-            "id": "c296a169da71f37e",
+            "id": "c845b4c45dda3d75",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 260.5026054382324
   },
   "right": {
     "id": "5415e5af3f5b7d6a",
@@ -136,13 +136,27 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "pkmer:Open Pkmer Market": false
+      "pkmer:Open Pkmer Market": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "c296a169da71f37e",
+  "active": "c845b4c45dda3d75",
   "lastOpenFiles": [
+    "cesium/camera.md",
     "README.md",
+    "assets/images/drone-in-space.jpg",
+    "assets/images/heading-pitch-roll.jpg",
+    "tnotes/2024-01-05.md",
+    "未命名.canvas",
+    "tnotes/2024-01-04.md",
+    "t-note.md",
+    "tnotes/delete.md",
+    "2024-01-04.md",
+    "tnotes",
+    "新建文件夹",
     "map/cesium-primitive-dynamic-line.md",
+    "cesium/primitive-api-vs-entity-api.md",
+    "cesium",
     "assets/images/animation-f2.jpg",
     "assets/images/animation-f1.jpg",
     "data/mapserver-url-skill.md",
