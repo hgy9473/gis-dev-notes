@@ -13,7 +13,42 @@
 可以把使用 Cesium 浏览地图的过程想象成这样一个场景：
 
 一个带有相机的能实时传回拍摄画面的无人机在地球上空飞翔。当我们在 Cesium 程序上操作鼠标的时候，无人机就会执行相关的飞行动作，并实时拍摄照片回传到程序，于是我们看到了预期的地图。在这个过程中，无人机的姿态、位置决定了相机的位置，从而决定了我们能看到什么样的地图。
-## 二、调用相机功能的方式
+
+## 二、理解相机常用参数
+
+相机由位置（position）、姿态（orientation）和视锥体（frustum）定义。<sup>[1]</sup>
+
+相机的三个关键参数中 position、orientation 最常用，其中 orientation 不太好理解。
+
+`orientation` 由 `heading`、`pitch`、`roll` 三个参数构成，他们的单位都是弧度。在 Camera API 中没有 `orientation` 属性，只有 `heading`、`pitch`、`roll` 三个相关的属性。这三个属性怎么理解呢？看一张图就明白了。
+
+![orientation-figure](../assets/images/heading-pitch-roll.jpg)
+
+假设把人绑在相机上，差不多就是这个效果。
+
+三个姿态参数的含义以及取值范围如下：
+
+**heading: 相机的偏航角**。取值范围 [`-π/2`, `π/2`]。
+
+取值及其效果：
+-  `-π/2` ：向左旋转 90 度；
+- `-π/4` ：向左旋转45度；
+- 0 ：不旋转；
+- `π/2` ：向右旋转 90 度；
+- `π/4` ：向右旋转45度；
+
+**pitch: 相机的俯仰角**。取值范围 [`-π/2`, 0]。
+
+取值及其效果：
+ - `-π/2` ：俯视地面；
+ - `-π/4` ：斜向下45度俯视地面；
+ - 0 ：平视前方，将看不到地图；
+
+**roll: 相机的翻滚角**。取值范围 [0, π]。
+
+取值一般都是 0 。
+
+## 三、调用相机功能的方式
 
 ### 1. 直接调用
 
@@ -30,7 +65,7 @@ Cesium 中有[相机类](https://cesium.com/learn/cesiumjs/ref-doc/Camera.html)�
 
 有些时候，不用获取相机实例也可调用相机的功能。例如`viewer.flyTo`、`viewer.zoomTo` 等。
 
-## 三、相机的常见使用场景
+## 四、相机的常见使用场景
 
 ### 1.设置地图视角
 ```js
@@ -170,40 +205,6 @@ const removeChanged = camera.changed.addEventListener(() => {
 
 // 测试发现 changed 事件不太灵敏
 ```
-## 四、理解相机常用参数 orientation
-
-相机由位置（position）、姿态（orientation）和视锥体（frustum）定义。<sup>[1]</sup>
-
-相机的三个关键参数中 position、orientation 最常用，其中 orientation 不太好理解。
-
-`orientation` 由 `heading`、`pitch`、`roll` 三个参数构成，他们的单位都是弧度。在 Camera API 中没有 `orientation` 属性，只有 `heading`、`pitch`、`roll` 三个相关的属性。这三个属性怎么理解呢？看一张图就明白了。
-
-![orientation-figure](../assets/images/heading-pitch-roll.jpg)
-
-假设把人绑在相机上差不多就是这个效果。
-
-三个姿态参数的含义以及取值范围如下：
-
-**heading: 相机的偏航角**。取值范围 [`-π/2`, `π/2`]。
-
-取值及其效果：
--  `-π/2` ：向左旋转 90 度；
-- `-π/4` ：向左旋转45度；
-- 0 ：不旋转；
-- `π/2` ：向右旋转 90 度；
-- `π/4` ：向右旋转45度；
-
-**pitch: 相机的俯仰角**。取值范围 [`-π/2`, 0]。
-
-取值及其效果：
- - `-π/2` ：俯视地面；
- - `-π/4` ：斜向下45度俯视地面；
- - 0 ：平视前方，将看不到地图；
-
-**roll: 相机的翻滚角**。取值范围 [0, π]。
-
-取值一般都是 0 。
-
 ## 参考资料
 
 [1] . [Camera - Cesium Documentation](https://cesium.com/learn/cesiumjs/ref-doc/Camera.html)
