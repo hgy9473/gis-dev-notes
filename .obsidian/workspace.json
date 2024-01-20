@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d79f2355e277ab70",
+        "id": "a28d445ac434f575",
         "type": "tabs",
         "children": [
           {
-            "id": "c845b4c45dda3d75",
+            "id": "dc71c4b277dddaab",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "cesium/camera-frustum.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "cesium/camera-frustum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "cesium/camera-frustum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +125,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "cesium/camera-frustum.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -140,12 +149,37 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "c845b4c45dda3d75",
+  "active": "dc71c4b277dddaab",
   "lastOpenFiles": [
+    "cesium/camera-frustum.md",
+    "assets/images/frustum-change-heading.jpg",
     "cesium/camera.md",
+    "tnotes/2024-01-19.md",
+    "assets/images/frustum-change-roll.gif",
+    "assets/images/frustum-change-pitch.gif",
+    "assets/images/pitch.gif",
+    "assets/images/roll.gif",
+    "assets/images/frustum-change-roll.jpg",
+    "assets/images/f-o-heading.jpg",
+    "assets/images/frustum-o-pitch-1.jpg",
+    "assets/images/frustum-o-roll-2.jpg",
+    "assets/images/frustum-o-roll-1.jpg",
+    "tnotes/2024-01-17.md",
+    "tnotes/2024-01-16.md",
+    "map/arcgis-js-resolve-static-tile.md",
+    "services/common-gis-services-type.md",
+    "services/grid-tile-and-vector-tile.md",
+    "data/mapserver-url-skill.md",
+    "data/tile-file-structure.md",
+    "map/ol-resolve-static-tile.md",
+    "map/cesium-resolve-static-tile.md",
+    "map/cesium-primitive-dynamic-line.md",
+    "arcgis-python/modules-summary.md",
+    "arcgis-python/slash-in-file-path-string-problem.md",
+    "arcgis-python",
+    "tnotes/2024-01-10.md",
+    "tnotes/2024-01-09.md",
     "README.md",
-    "assets/images/drone-in-space.jpg",
-    "assets/images/heading-pitch-roll.jpg",
     "tnotes/2024-01-05.md",
     "未命名.canvas",
     "tnotes/2024-01-04.md",
@@ -154,16 +188,7 @@
     "2024-01-04.md",
     "tnotes",
     "新建文件夹",
-    "map/cesium-primitive-dynamic-line.md",
     "cesium/primitive-api-vs-entity-api.md",
-    "cesium",
-    "assets/images/animation-f2.jpg",
-    "assets/images/animation-f1.jpg",
-    "data/mapserver-url-skill.md",
-    "assets/images/animation-f.jpg",
-    "assets/images/animation-f.png",
-    "assets/images/Pasted image 20231226072156.png",
-    "Pasted image 20231226072156.png",
-    "services/common-gis-services-type.md"
+    "cesium"
   ]
 }
