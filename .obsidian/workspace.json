@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a28d445ac434f575",
+        "id": "c58212d5e14964a3",
         "type": "tabs",
         "children": [
           {
-            "id": "dc71c4b277dddaab",
+            "id": "361f5ede08598a43",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cesium/camera-frustum.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cesium/camera-frustum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cesium/camera-frustum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "cesium/camera-frustum.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -149,8 +140,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "dc71c4b277dddaab",
+  "active": "361f5ede08598a43",
   "lastOpenFiles": [
+    "data/tile-file-structure.md",
     "cesium/camera-frustum.md",
     "assets/images/frustum-change-heading.jpg",
     "cesium/camera.md",
@@ -170,7 +162,6 @@
     "services/common-gis-services-type.md",
     "services/grid-tile-and-vector-tile.md",
     "data/mapserver-url-skill.md",
-    "data/tile-file-structure.md",
     "map/ol-resolve-static-tile.md",
     "map/cesium-resolve-static-tile.md",
     "map/cesium-primitive-dynamic-line.md",
