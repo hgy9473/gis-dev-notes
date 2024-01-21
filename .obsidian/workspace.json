@@ -4,23 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "c58212d5e14964a3",
+        "id": "79e4635ebaa64f14",
         "type": "tabs",
         "children": [
           {
-            "id": "361f5ede08598a43",
+            "id": "e7cc28550a5e9e5e",
+            "type": "leaf",
+            "state": {
+              "type": "memos_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "7ffd857b655f93b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cesium/camera-frustum.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cesium/camera-frustum.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cesium/camera-frustum.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cesium/camera-frustum.md"
+                "file": "README.md"
               }
             }
           }
@@ -149,13 +158,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "361f5ede08598a43",
+  "active": "7ffd857b655f93b7",
   "lastOpenFiles": [
-    "data/tile-file-structure.md",
     "cesium/camera-frustum.md",
+    "README.md",
+    "tnotes/2024-01-19.md",
+    "arcgis-pro",
+    "t-note.md",
+    "data/tile-file-structure.md",
     "assets/images/frustum-change-heading.jpg",
     "cesium/camera.md",
-    "tnotes/2024-01-19.md",
     "assets/images/frustum-change-roll.gif",
     "assets/images/frustum-change-pitch.gif",
     "assets/images/pitch.gif",
@@ -179,11 +191,9 @@
     "arcgis-python",
     "tnotes/2024-01-10.md",
     "tnotes/2024-01-09.md",
-    "README.md",
     "tnotes/2024-01-05.md",
     "未命名.canvas",
     "tnotes/2024-01-04.md",
-    "t-note.md",
     "tnotes/delete.md",
     "2024-01-04.md",
     "tnotes",
