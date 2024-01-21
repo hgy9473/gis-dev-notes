@@ -2,7 +2,7 @@
 
 ## 背景
 
-根据 Cesium API文档，相机由位置（position）、姿态（orientation）和视锥体（frustum）定义。<sup>[1]</sup> position 和 orientation [理解 Cesium 中的相机（1）](./camera.md)已经梳理过，本文尝试梳理 frustum。
+根据 Cesium API文档，相机由位置（position）、姿态（orientation）和视锥体（frustum）定义。<sup>[1]</sup> position 和 orientation 在[理解 Cesium 中的相机（1）](./camera.md)中已经梳理过，本文尝试梳理 frustum。
 
 ## 一、绘制一个视锥体
 
