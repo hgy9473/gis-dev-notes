@@ -8,28 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7cc28550a5e9e5e",
+            "id": "c961b9e895cfd54e",
             "type": "leaf",
             "state": {
               "type": "memos_view",
               "state": {}
             }
-          },
-          {
-            "id": "7ffd857b655f93b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -158,10 +140,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7ffd857b655f93b7",
+  "active": "c961b9e895cfd54e",
   "lastOpenFiles": [
-    "cesium/camera-frustum.md",
     "README.md",
+    "arcgis-pro/set-random-value-for-field.md",
+    "assets/images/arcgis-pro-python-1.jpg",
+    "assets/images/arcgis-pro-arcade-1.jpg",
+    "cesium/camera-frustum.md",
     "tnotes/2024-01-19.md",
     "arcgis-pro",
     "t-note.md",
@@ -175,8 +160,6 @@
     "assets/images/frustum-change-roll.jpg",
     "assets/images/f-o-heading.jpg",
     "assets/images/frustum-o-pitch-1.jpg",
-    "assets/images/frustum-o-roll-2.jpg",
-    "assets/images/frustum-o-roll-1.jpg",
     "tnotes/2024-01-17.md",
     "tnotes/2024-01-16.md",
     "map/arcgis-js-resolve-static-tile.md",
