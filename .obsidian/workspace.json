@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "79e4635ebaa64f14",
+        "id": "520ad80664a3e40e",
         "type": "tabs",
         "children": [
           {
-            "id": "c961b9e895cfd54e",
+            "id": "cfdc966af9540518",
             "type": "leaf",
             "state": {
-              "type": "memos_view",
+              "type": "empty",
               "state": {}
             }
           }
@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5026054382324
+    "width": 300.5026054382324
   },
   "right": {
     "id": "5415e5af3f5b7d6a",
@@ -81,6 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "cesium/sample-height.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "cesium/sample-height.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +120,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "cesium/sample-height.md"
+              }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -140,19 +144,30 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "c961b9e895cfd54e",
+  "active": "88c534c5bbb0e237",
   "lastOpenFiles": [
-    "README.md",
+    "cesium/sample-height.md",
+    "cesium/camera-frustum.md",
+    "cesium/camera.md",
     "arcgis-pro/set-random-value-for-field.md",
+    "cesium/primitive-api-vs-entity-api.md",
+    "tnotes/2024-02-04.md",
+    "tnotes/2024-02-03.md",
+    "tnotes/2024-02-02.md",
+    "cesium/mouse-zoom-in-out-error.md",
+    "t-note.md",
+    "tnotes/2024-01-25.md",
+    "tnotes/2024-01-24.md",
+    "cesium/mouse-click-position-error.md",
+    "services/common-gis-services-type.md",
+    "services/grid-tile-and-vector-tile.md",
+    "README.md",
     "assets/images/arcgis-pro-python-1.jpg",
     "assets/images/arcgis-pro-arcade-1.jpg",
-    "cesium/camera-frustum.md",
     "tnotes/2024-01-19.md",
     "arcgis-pro",
-    "t-note.md",
     "data/tile-file-structure.md",
     "assets/images/frustum-change-heading.jpg",
-    "cesium/camera.md",
     "assets/images/frustum-change-roll.gif",
     "assets/images/frustum-change-pitch.gif",
     "assets/images/pitch.gif",
@@ -163,25 +178,15 @@
     "tnotes/2024-01-17.md",
     "tnotes/2024-01-16.md",
     "map/arcgis-js-resolve-static-tile.md",
-    "services/common-gis-services-type.md",
-    "services/grid-tile-and-vector-tile.md",
     "data/mapserver-url-skill.md",
     "map/ol-resolve-static-tile.md",
     "map/cesium-resolve-static-tile.md",
     "map/cesium-primitive-dynamic-line.md",
     "arcgis-python/modules-summary.md",
-    "arcgis-python/slash-in-file-path-string-problem.md",
     "arcgis-python",
-    "tnotes/2024-01-10.md",
-    "tnotes/2024-01-09.md",
-    "tnotes/2024-01-05.md",
     "未命名.canvas",
-    "tnotes/2024-01-04.md",
-    "tnotes/delete.md",
-    "2024-01-04.md",
     "tnotes",
     "新建文件夹",
-    "cesium/primitive-api-vs-entity-api.md",
     "cesium"
   ]
 }
