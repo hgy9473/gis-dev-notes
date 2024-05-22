@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shadertoy/step-by-step-notes.md",
+                "file": "tnotes/2024-05-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shadertoy/step-by-step-notes.md",
+                "file": "tnotes/2024-05-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shadertoy/step-by-step-notes.md"
+                "file": "tnotes/2024-05-14.md"
               }
             }
           }
@@ -145,8 +145,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "88c534c5bbb0e237",
+  "active": "919a90e3c04311cd",
   "lastOpenFiles": [
+    "shadertoy/step-by-step-notes.md",
     "shadertoy/glsl-notes.md",
     "tnotes/2024-05-14.md",
     "t-note.md",
@@ -175,7 +176,6 @@
     "tnotes/2024-05-07.md",
     "tnotes/2024-05-06.md",
     "tnotes/2024-04-15.md",
-    "dev-tools/Java-Tools.md",
     "dev-tools",
     "reading-notes",
     "shadertoy",
