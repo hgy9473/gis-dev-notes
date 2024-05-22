@@ -14,7 +14,7 @@
 
 ## clampToHeightMostDetailed
 
-> clampToHeightMostDetailed(cartesians: Array.<[Cartesian3](https://cesium.com/learn/cesiumjs/ref-doc/Cartesian3.html)>, objectsToExclude:Array.<Object> , width: number) → Promise.<Array.<Cartesian3>>
+> clampToHeightMostDetailed(cartesians: [Cartesian3], objectsToExclude:Array[Object] , width: number) → Promise.<Array.<Cartesian3>>
 
 使用场景中切片的最高 LOD，对一组坐标执行异步 Scene.clampToHeight 查询。每个位置的高程值会被直接修改。如果某个位置没有图形，或发生其他错误，数组中的元素将被设置为 `undefined`。
 

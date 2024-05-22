@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "520ad80664a3e40e",
+        "id": "3a09e7490e197293",
         "type": "tabs",
         "children": [
           {
-            "id": "cfdc966af9540518",
+            "id": "919a90e3c04311cd",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "thino_view",
               "state": {}
             }
           }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cesium/sample-height.md",
+                "file": "shadertoy/step-by-step-notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cesium/sample-height.md",
+                "file": "shadertoy/step-by-step-notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cesium/sample-height.md"
+                "file": "shadertoy/step-by-step-notes.md"
               }
             }
           }
@@ -134,6 +134,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-memos:Thino": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -141,48 +142,51 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "pkmer:Open Pkmer Market": false,
-      "obsidian-memos:Memos": false
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "88c534c5bbb0e237",
   "lastOpenFiles": [
-    "cesium/sample-height.md",
-    "cesium/camera-frustum.md",
-    "cesium/camera.md",
-    "arcgis-pro/set-random-value-for-field.md",
-    "cesium/primitive-api-vs-entity-api.md",
-    "tnotes/2024-02-04.md",
-    "tnotes/2024-02-03.md",
-    "tnotes/2024-02-02.md",
-    "cesium/mouse-zoom-in-out-error.md",
+    "shadertoy/glsl-notes.md",
+    "tnotes/2024-05-14.md",
     "t-note.md",
-    "tnotes/2024-01-25.md",
-    "tnotes/2024-01-24.md",
+    "tnotes/2024-01-04.md",
+    "reading-notes/gislevel.md",
+    "Pasted image 20240322142659.png",
+    "Pasted image 20240322143231.png",
+    "cesium/camera.md",
+    "cesium/camera-frustum.md",
+    "cesium/ClippingPlaneCollection.md",
     "cesium/mouse-click-position-error.md",
-    "services/common-gis-services-type.md",
-    "services/grid-tile-and-vector-tile.md",
+    "cesium/mouse-zoom-in-out-error.md",
+    "cesium/primitive-api-vs-entity-api.md",
+    "cesium/sample-height.md",
+    "arcgis-pro/set-random-value-for-field.md",
+    "arcgis-python/modules-summary.md",
+    "arcgis-python/slash-in-file-path-string-problem.md",
+    "assets/images/animation-f.jpg",
+    "tnotes/delete.md",
+    "tnotes/2024-05-13.md",
+    "tnotes/2024-05-09.md",
+    "tnotes/2024-05-11.md",
+    "tnotes/2024-05-10.md",
     "README.md",
+    "tnotes/2024-05-08.md",
+    "tnotes/2024-05-07.md",
+    "tnotes/2024-05-06.md",
+    "tnotes/2024-04-15.md",
+    "dev-tools/Java-Tools.md",
+    "dev-tools",
+    "reading-notes",
+    "shadertoy",
     "assets/images/arcgis-pro-python-1.jpg",
     "assets/images/arcgis-pro-arcade-1.jpg",
-    "tnotes/2024-01-19.md",
     "arcgis-pro",
-    "data/tile-file-structure.md",
     "assets/images/frustum-change-heading.jpg",
     "assets/images/frustum-change-roll.gif",
     "assets/images/frustum-change-pitch.gif",
     "assets/images/pitch.gif",
     "assets/images/roll.gif",
-    "assets/images/frustum-change-roll.jpg",
-    "assets/images/f-o-heading.jpg",
-    "assets/images/frustum-o-pitch-1.jpg",
-    "tnotes/2024-01-17.md",
-    "tnotes/2024-01-16.md",
-    "map/arcgis-js-resolve-static-tile.md",
-    "data/mapserver-url-skill.md",
-    "map/ol-resolve-static-tile.md",
-    "map/cesium-resolve-static-tile.md",
-    "map/cesium-primitive-dynamic-line.md",
-    "arcgis-python/modules-summary.md",
     "arcgis-python",
     "未命名.canvas",
     "tnotes",
