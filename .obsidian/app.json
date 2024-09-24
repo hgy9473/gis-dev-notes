@@ -1,5 +1,12 @@
 {
   "showLineNumber": true,
   "propertiesInDocument": "visible",
-  "tabSize": 2
+  "tabSize": 2,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

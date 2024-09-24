@@ -4,11 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "3a09e7490e197293",
+        "id": "a99ddce6b01a23e5",
         "type": "tabs",
         "children": [
           {
-            "id": "919a90e3c04311cd",
+            "id": "409adac7d66f2726",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "t-note.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9984e1498febe96a",
             "type": "leaf",
             "state": {
               "type": "thino_view",
@@ -81,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tnotes/2024-05-14.md",
+                "file": "t-note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tnotes/2024-05-14.md",
+                "file": "t-note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tnotes/2024-05-14.md"
+                "file": "t-note.md"
               }
             }
           }
@@ -130,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,37 +159,38 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "919a90e3c04311cd",
+  "active": "409adac7d66f2726",
   "lastOpenFiles": [
-    "shadertoy/step-by-step-notes.md",
-    "shadertoy/glsl-notes.md",
-    "tnotes/2024-05-14.md",
+    "tnotes/2024-09-11.md",
+    "tnotes/2024-09-10.md",
+    "tnotes/delete.md",
+    "tnotes/2024-08-28.md",
+    "tnotes/2024-08-25.md",
+    "tnotes/2024-08-23.md",
+    "tnotes/2024-08-16.md",
     "t-note.md",
-    "tnotes/2024-01-04.md",
-    "reading-notes/gislevel.md",
+    "services/common-gis-services-type.md",
+    "tnotes/2024-08-12.md",
+    "cesium/sample-height.md",
+    "shadertoy/glsl-notes.md",
+    "tnotes/2024-08-01.md",
+    "map/ol-resolve-static-tile.md",
+    "tnotes/2024-07-10.md",
+    "tnotes/2024-07-17.md",
+    "tnotes/2024-07-16.md",
+    "cesium/camera.md",
+    "arcgis-server/server-migration.md",
+    "arcgis-server",
+    "dev-tools/WeChat-miniprogram-Tools.md",
+    "dev-tools/Math.md",
+    "dev-tools/Java-Tools.md",
+    "shadertoy/step-by-step-notes.md",
+    "tnotes/2024-07-07.md",
+    "tnotes/2024-07-08.md",
+    "tnotes/2024-07-06.md",
     "Pasted image 20240322142659.png",
     "Pasted image 20240322143231.png",
-    "cesium/camera.md",
-    "cesium/camera-frustum.md",
-    "cesium/ClippingPlaneCollection.md",
-    "cesium/mouse-click-position-error.md",
-    "cesium/mouse-zoom-in-out-error.md",
-    "cesium/primitive-api-vs-entity-api.md",
-    "cesium/sample-height.md",
-    "arcgis-pro/set-random-value-for-field.md",
-    "arcgis-python/modules-summary.md",
-    "arcgis-python/slash-in-file-path-string-problem.md",
     "assets/images/animation-f.jpg",
-    "tnotes/delete.md",
-    "tnotes/2024-05-13.md",
-    "tnotes/2024-05-09.md",
-    "tnotes/2024-05-11.md",
-    "tnotes/2024-05-10.md",
-    "README.md",
-    "tnotes/2024-05-08.md",
-    "tnotes/2024-05-07.md",
-    "tnotes/2024-05-06.md",
-    "tnotes/2024-04-15.md",
     "dev-tools",
     "reading-notes",
     "shadertoy",

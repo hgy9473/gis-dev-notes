@@ -87,7 +87,7 @@
   "MomentsIcon": "https://images.pexels.com/photos/256514/pexels-photo-256514.jpeg",
   "MomentsQuote": "note-note",
   "DefaultThemeForThino": "modern",
-  "LastUpdatedVersion": "2.4.36",
+  "LastUpdatedVersion": "2.4.43",
   "ShareToThinoWithText": false,
   "ShareToThinoWithTextAppend": "",
   "ShareToThinoWithTextPrepend": "",
@@ -115,5 +115,6 @@
   "NavbarButton": false,
   "AlwaysShowStatusText": false,
   "FilterByMetadata": false,
-  "ShowSourcePath": false
+  "ShowSourcePath": false,
+  "ShowUpdateMessage": true
 }
