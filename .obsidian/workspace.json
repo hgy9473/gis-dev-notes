@@ -4,31 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "a99ddce6b01a23e5",
+        "id": "2a261e4172d852ea",
         "type": "tabs",
         "children": [
           {
-            "id": "409adac7d66f2726",
+            "id": "ddc7b2f7b2b0373c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "t-note.md",
+                "file": "cesium/primitive-api-vs-entity-api.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "primitive-api-vs-entity-api"
             }
           },
           {
-            "id": "9984e1498febe96a",
+            "id": "f3b0f19633fbbf31",
             "type": "leaf",
             "state": {
-              "type": "thino_view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "supermap-python/读取缓存中的构件位置信息.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "读取缓存中的构件位置信息"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +58,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -63,7 +75,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -71,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -102,7 +118,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "t-note 的反向链接列表"
             }
           },
           {
@@ -114,7 +132,9 @@
                 "file": "t-note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "t-note 的出链列表"
             }
           },
           {
@@ -125,7 +145,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -135,20 +157,30 @@
               "type": "outline",
               "state": {
                 "file": "t-note.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "t-note 的大纲"
+            }
+          },
+          {
+            "id": "f5bf647b31a029e1",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-memos:Thino": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -156,19 +188,28 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "pkmer:Open Pkmer Market": false,
+      "obsidian-memos:Thino": false,
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "409adac7d66f2726",
+  "active": "f3b0f19633fbbf31",
   "lastOpenFiles": [
+    "cesium/primitive-api-vs-entity-api.md",
+    "tnotes/delete.md",
+    "supermap-python/读取缓存中的构件位置信息.md",
+    "supermap-python/update_field_value.md",
+    "arcgis-python/slash-in-file-path-string-problem.md",
+    "supermap-python",
+    "arcgis-python/modules-summary.md",
+    "arcgis-pro/set-random-value-for-field.md",
+    "tnotes/2024-11-14.md",
+    "t-note.md",
     "tnotes/2024-09-11.md",
     "tnotes/2024-09-10.md",
-    "tnotes/delete.md",
     "tnotes/2024-08-28.md",
     "tnotes/2024-08-25.md",
     "tnotes/2024-08-23.md",
     "tnotes/2024-08-16.md",
-    "t-note.md",
     "services/common-gis-services-type.md",
     "tnotes/2024-08-12.md",
     "cesium/sample-height.md",
@@ -181,13 +222,6 @@
     "cesium/camera.md",
     "arcgis-server/server-migration.md",
     "arcgis-server",
-    "dev-tools/WeChat-miniprogram-Tools.md",
-    "dev-tools/Math.md",
-    "dev-tools/Java-Tools.md",
-    "shadertoy/step-by-step-notes.md",
-    "tnotes/2024-07-07.md",
-    "tnotes/2024-07-08.md",
-    "tnotes/2024-07-06.md",
     "Pasted image 20240322142659.png",
     "Pasted image 20240322143231.png",
     "assets/images/animation-f.jpg",
