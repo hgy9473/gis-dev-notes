@@ -7,5 +7,6 @@
   "baseFontSize": 16,
   "enabledCssSnippets": [
     "code-line"
-  ]
+  ],
+  "cssTheme": "Typora-Vue"
 }
